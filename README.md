@@ -1,7 +1,7 @@
 Basher
 =============
 
-Basher is a utility to convert regular old JS functions into indivdual command line tools.
+Basher is a utility to convert regular old JS functions into individual command line tools.
 
 ![basher](./image.jpg)
 
