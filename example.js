@@ -1,5 +1,5 @@
 //just run:
-//  basher example_file.js
+//  basher example.js
 
 module.exports = {
   hello: function() {
