@@ -10,9 +10,7 @@ Installation
 -----------
 
 ```
-git clone git://github.com/seanewest/basher.git
-cd basher
-npm install -g
+npm install -g seanewest/basher
 ```
 
 Usage
