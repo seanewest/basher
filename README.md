@@ -1,5 +1,6 @@
 Basher
 =============
+[![Build Status](https://travis-ci.org/seanewest/basher.svg?branch=master)](https://travis-ci.org/seanewest/basher)
 
 Basher is a utility to convert regular old JS functions into individual command line tools.
 
