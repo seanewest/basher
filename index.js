@@ -8,15 +8,7 @@ function basher(obj_of_funcs) {
   })
 }
 
-/*
-function wrapper(func, args) {
-  func.apply(this, args)
-}
-*/
-
-
 function func_to_script(name, func) { 
-
   var str = '#!/usr/bin/env node' + '\n'
   str += 'var ' + name + ' = ' + func.toString() + '\n'
   str += name + '.apply(this, process.argv.slice(2))' + '\n'
