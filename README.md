@@ -49,12 +49,3 @@ hello world!!
 $ bin/goodbye and farewell
 goodbye called with args(and, farewell)
 ```
-
-Testing
--------
-
-To run the tests:
-
-```
-$ npm test
-```
