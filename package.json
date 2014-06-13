@@ -1,12 +1,9 @@
 {
   "name": "basher",
   "version": "0.0.0",
-  "description": "convert regular old JS functions into indivdual command line tools",
+  "description": "Run modules from the command line.",
   "main": "index.js",
   "bin": "bin/cmd.js",
-  "scripts": {
-    "test": "tap test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/seanewest/basher.git"
@@ -15,15 +12,8 @@
   "keywords": [
     "cli",
     "shell",
-    "tool",
-    "script",
-    "task",
-    "make",
-    "build"
+    "bash"
   ],
   "author": "Sean West",
-  "license": "MIT",
-  "dependencies": {
-    "resolve": "^0.6.2"
-  }
+  "license": "MIT"
 }

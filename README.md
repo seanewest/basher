@@ -1,50 +1,30 @@
-Basher
-=============
+#Basher
 
-Basher is a utility to convert regular old JS functions into individual command line tools.
+Run modules from the command line.
 
-![basher](./image.jpg)
-
-Installation
------------
+##Installation
 
 ```
 npm install -g seanewest/basher
 ```
 
-Usage
------
+##Run modules from npm
 
-Sample file:
+```
+$ npm install gcd
+$ basher gcd 8 12
+4
+```
 
-``` js
-module.exports = {
-  hello: function() {
-      console.log('hello world!!')
-  },
-  goodbye: function(first, second) {
-      console.log('goodbye called with args(' + first + ', ' + second + ')')
-  },
+##Run local modules
+```js
+// mymodule.js
+module.exports = function() {
+  console.log('hello world!!')
 }
 ```
-Run basher on this file:
 
 ```
-$ basher myfile.js
-```
-
-Look at whats in your bin!
-
-```
-$ ls ./bin
-hello goodbye
-```
-
-Now you can run those methods from the command line!
-
-```
-$ bin/hello
+$ basher ./mymodule
 hello world!!
-$ bin/goodbye and farewell
-goodbye called with args(and, farewell)
 ```
