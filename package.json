@@ -4,9 +4,6 @@
   "description": "convert regular old JS functions into indivdual command line tools",
   "main": "index.js",
   "bin": "bin/cmd.js",
-  "scripts": {
-    "test": "tap test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/seanewest/basher.git"
