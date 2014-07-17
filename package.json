@@ -1,7 +1,7 @@
 {
   "name": "basher",
   "version": "0.0.0",
-  "description": "Run modules from the command line.",
+  "description": "Run single-method modules from the command line.",
   "main": "index.js",
   "bin": "bin/cmd.js",
   "repository": {
