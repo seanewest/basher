@@ -1,6 +1,6 @@
 #Basher
 
-Run modules from the command line.
+Attempt to run single-method node modules directly from the command line..
 
 ##Installation
 
